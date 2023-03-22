@@ -1,0 +1,50 @@
+
+      Welcome to Scratchpad! Press Ctrl+H to see a list of keyboard shortcuts.
+    ----------------------------------------------------------------------------------
+
+This is the default Scratchpad template. You can edit this file (/template.txt) to 
+change the template, or delete it entirely to start with a blank file every time.
+
+Start a new file with Ctrl+N. Inherit another file's headers and open ToDo items with
+Ctrl+Shift+N. Open and save files using Ctrl+O, Ctrl+S, and Ctrl+Shift+S.
+
+      ScratchpadSettings.ini variables
+    ----------------------------------------------------------------------------------
+
+Delete /ScratchpadSettings.ini to return to the defaults.
+
+[Keybind]
+VisibilityHotkey ... Hotkey that hides/shows Scratchpad (#s for Win+S by default).
+                     See: https://www.autohotkey.com/docs/v2/lib/Send.htm#keynames
+
+[Behaviour]
+SaveOnHide       ... Save the file when Scratchpad is hidden? (1 or 0)
+SaveOnFocusLoss  ... Save the file when Scratchpad loses focus? (1 or 0)
+StartMinimised   ... Should Scratchpad start hidden? (1 or 0)
+LastActiveFile   ... Full path to the last active file.
+
+[Editing]
+TabSpaces        ... Number of spaces to insert when Tab is pressed.
+FontName         ... Name of the font to use.
+FontSizePt       ... Font size in points.
+ListItem         ... String for list items (insert with Ctrl+Enter).
+ToDoItem         ... String for ToDo items (insert with Ctrl+Shift+Enter).
+DoneItem         ... String for Done items (toggle ToDo/Done with Alt+Enter).
+
+[Sizing]
+EditorCols       ... Width in character columns on startup.
+EditorRows       ... Height in character rows on startup.
+
+
+Enjoy!
+- Desi (desiquintans.com/scratchpad)
+
+P.S. Thanks to Freepik for the notepad icon (flaticon.com/free-icon/pencil_3075908)
+
+
+--Ruler--1---------2---------3---------4---------5---------6---------7---------8---------9
+
+.
+..
+...
+....
