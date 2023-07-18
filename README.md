@@ -20,9 +20,19 @@ Scratchpad is a plain text note-taking tool that can be shown when you need it a
 Scratchpad auto-saves whenever it is hidden or dropped to the background, and auto-refreshes if the file is edited by other programs. This makes it safe to use in cloud services like Dropbox or OneDrive.
 
 
-## Installation/usage
+## Installation
 
 There is no installation process; Scratchpad is self-contained. Extract `Scratchpad.exe` and `template.txt` from the _.zip_ file, put them wherever you want, and run `Scratchpad.exe`. `ScratchpadSettings.ini` will be created alongside it.
+
+
+## Usage/workflow
+
+1. When I first start using Scratchpad, I use `Ctrl + N` to create a new file (edit `/template.txt` to change what this template looks like).
+2. I save this file with a name like "2023-07-24.txt".
+3. As new tasks come in, I add them to my list with `Alt + Shift + Enter`.
+4. When I finish a task, I mark it finished with `Ctrl + Enter`.
+5. At the start of a new week, I press `Ctrl + Shift + N` and choose last week's file. This copies last week's unfinished tasks to this week's new list.
+6. Repeat from #2 forever.
 
 
 ## Features and commands
